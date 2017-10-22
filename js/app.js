@@ -9,10 +9,10 @@ card_box_ids = [],
 matched_ids_list = [],
 first_id,
 box_flipped = 0,
-moves = 0;
+moves = 0,
 //$container = jQuery('.container');
 //$deck = jQuery('.deck');
-//$moveNum = $(".moves");
+$moveNum = $('.moves');
 
 /*
  * Display the cards on the page
@@ -58,6 +58,7 @@ function storeValueClickBox(box,val){
 				card_box_ids.push(box.id);
 				checkCardMatch();
 				moves++;
+				$moveNum.html(moves);
 				//document.write('hello');
 				//$(document.body).append('hello');
 				
@@ -88,9 +89,6 @@ function checkCardMatch(){
 	
 	first_id = "";
 	//moves++;
-	//document.write(moves);
-    //document.write(moves);
-    //document.write($(".moves"));
 
 }
 
