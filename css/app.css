@@ -89,6 +89,7 @@ h1 {
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
+    font-size: 22px;
 }
 
 .score-panel .stars {
@@ -101,6 +102,23 @@ h1 {
 .score-panel .stars li {
     list-style: none;
     display: inline-block;
+    color: green;
+    font-size: 25px;
+
+}
+/* updated font color, size and padding for # of moves*/
+.score-panel .moves{
+    color: blue;
+    font-size: 20px;
+    padding: 2px;
+
+}
+/* updated font color, size and padding for timer count*/
+.score-panel .timer{
+    color: blue;
+    font-size: 20px;
+    padding: 2px;
+
 }
 
 .score-panel .restart {
