@@ -17,8 +17,9 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
-    font-family: 'Coda', cursive;
+    background: #ffffff url('../img/1.jpg'); /* Background pattern from Subtle Patterns */
+    font-family: 'Luciana', Luciana;
+    color: rgb(0, 119, 255);
 }
 
 .container {
@@ -29,8 +30,9 @@ body {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Luciana', Luciana;
+    font-weight: 200;
+    color: cyan;
 }
 
 /*
@@ -40,7 +42,8 @@ h1 {
 .deck {
     width: 660px;
     min-height: 680px;
-    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    background: linear-gradient(160deg, #0171cc 0%, #7ecd82 100%); 
+    /* background: linear-gradient(160deg, #01ccba 0%, #aa7ecd 100%);  */
     padding: 32px;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
